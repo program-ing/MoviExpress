@@ -91,7 +91,8 @@ public class ConexionSQLite
         try 
         {
              // ESTABLECER LA CONEXIÓN
-             conexion = (Connection)DriverManager.getConnection("jdbc:sqlite:"+Utilidades.DATABASE_NAME);
+             //conexion = (Connection)DriverManager.getConnection("jdbc:sqlite:"+Utilidades.DATABASE_NAME);
+            conexion = (Connection)DriverManager.getConnection("jdbc:sqlite:/Users/Usuario/Documents/NetBeansProjects/MoviExpress/"+Utilidades.DATABASE_NAME);
 
         } catch (Exception e) 
         {

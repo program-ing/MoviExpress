@@ -51,7 +51,7 @@ public class BDBean implements BDBeanLocal
 		try 
 		{
 			enunciado = con.getConexion().createStatement();
-			enunciado.execute("INSERT INTO "+Utilidades.TABLA_ENVIO+" (id_envio, id_factura_envio, id_socio_envio) values (20, 7, 6)");
+			enunciado.execute("INSERT INTO "+Utilidades.TABLA_ENVIO+" (id_envio, id_factura_envio, id_socio_envio) values (25, 21, 30)");
 		}
 		catch (ClassNotFoundException e) 
 		{
