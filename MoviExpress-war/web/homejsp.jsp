@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
            
-        <link rel="stylesheet" href="homecss.css">
+        <link rel="stylesheet" href="homecss.css"> <!-- link a la hoja de estilos-->
         <script src="http://code.jquery.com/jquery-latest.js"></script>
     </head>
     <body>
@@ -44,7 +44,7 @@
         </main>
        
         
-        <footer class="footer">
+        <footer class="footer"> <!-- pie de página-->
             <div class="contenedor">
                 <p>página diseñada por @PROGRAM-ING 2019</p>
             </div>

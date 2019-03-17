@@ -76,7 +76,7 @@ p{
     margin: 0;
     padding: 0;
     list-style: none;
-    overflow: hidden;    
+    overflow: hidden; /* Limpiamos errores de float */    
 }
 
     .navegation ul li {
@@ -85,7 +85,7 @@ p{
     }
 
         .navegation ul li a {
-            display: block;
+            display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
             padding:20px;
             color:#fff;
             text-decoration: none;
@@ -93,7 +93,7 @@ p{
             border-radius: 5px;
         }
 
-        .navegation ul li a:hover {
+        .navegation ul li a:hover {/* Mouse por encima */
             background: #3ead47;
         }
 
@@ -102,7 +102,7 @@ p{
     padding-top: 10rem;
 }
 
-.footer{
+.footer{/* pie de pagina*/
     background: #f2f2f2 ;
     padding: 4rem 0;
     text-align: center;
