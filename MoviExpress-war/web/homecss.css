@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/03/2019, 01:10:10 AM
+    Author     : juancuervo
+*/
+
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Agregamos tipo de letra y espaciado*/
+body{
+    font-family: georgia, times, serif;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+
+}
+
+/*Agregamos margenes inferiores al titulo y espaciado*/
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+/*Agregamos margenes inferiores a los parrafos*/
+p{
+    margin-bottom: 1.6em;   
+}
+
+.header {
+    background: rgba(0,0,0,0.9); /*Negro con opacidad*/
+    margin-bottom:10px;
+    padding: 1rem 0;
+
+    /*    Hacer que el header sea fijo*/
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    box-shadow:0px 3px 3px rgba(0,0,0,.5); /*Agregamos sombra inferior*/
+}
+    .header a{
+        color: white;
+        text-decoration: none;
+    }
+
+.contenedor {
+    width: 95%;
+    max-width:1000px;
+    margin:auto;
+}
+
+.logo{
+    letter-spacing: 7px;
+    font-size: 1.2em; 
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navegation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;    
+}
+
+    .navegation ul li {
+        float: left;
+        display: inline-block;
+    }
+
+        .navegation ul li a {
+            display: block;
+            padding:20px;
+            color:#fff;
+            text-decoration: none;
+            transition: all 0.3s linear; 
+            border-radius: 5px;
+        }
+
+        .navegation ul li a:hover {
+            background: #3ead47;
+        }
+
+/* hasta aquí llega el navbar---------------------------------------- */
+.main{
+    padding-top: 10rem;
+}
+
+.footer{
+    background: #f2f2f2 ;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+
+}
